@@ -1,2 +1,6 @@
-.env
+venv/
+git.venv/
 venv
+__pycache__/
+.env
+hyperparameters/tokens.csv
