@@ -1,6 +1,19 @@
+# Virtual Environments
 venv/
+.venv/
+lvenv/
 git.venv/
-venv
+env/
+ENV/
+
+# Python bytecode & cache
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# Environment variables & secrets
 .env
 hyperparameters/tokens.csv
