@@ -1,0 +1,4 @@
+{
+    "python.defaultInterpreterPath": "/mnt/d/DL-Algorithm/lvenv/bin/python",
+    "python.envFile": "${workspaceFolder}/.env"
+}

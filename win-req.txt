@@ -1,0 +1,38 @@
+# Core Deep Learning
+tensorflow
+keras
+torch
+torchvision
+torchaudio
+
+# Scientific Computing
+numpy
+scipy
+
+# Data Processing
+pandas
+
+# Visualization
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+
+# Computer Vision
+opencv-python
+pillow
+
+# Hugging Face / NLP
+transformers
+datasets
+tokenizers
+accelerate
+peft
+
+# Experiment Tracking / Visualization
+tensorboard
+
+# Jupyter
+jupyter
+ipykernel
