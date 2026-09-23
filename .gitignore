@@ -18,3 +18,20 @@ __pycache__/
 .env
 hyperparameters/tokens.csv
 winven
+# Virtual environments
+lvenv/
+winven/
+venv/
+*.venv/
+
+# Large model/data files
+*.keras
+*.h5
+*.pth
+*.npy
+*.exe
+
+# Large text/data dumps
+tokens.txt
+all_code.txt
+token_ids.npy

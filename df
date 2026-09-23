@@ -1,0 +1,102 @@
+[33mcommit 1ef4525f81986046b11cc7ffc06cee75d079648d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Merge: 24642f01 d4c0ba2a
+Author: chouhandarsh <darshc534@gmail.com>
+Date:   Wed Sep 23 15:02:55 2026 +0530
+
+    Merge master into main, resolve conflicts favoring master
+
+[33mcommit d4c0ba2adc187e8df5952befa40d69cbbfec782a[m[33m ([m[1;32mmaster[m[33m)[m
+Author: chouhandarsh <darshc534@gmail.com>
+Date:   Wed Sep 23 14:53:56 2026 +0530
+
+    your message
+
+[33mcommit 2f2606a6ef43d59f859ac7d8b4de71521d5235cd[m
+Author: chouhandarsh <darshc534@gmail.com>
+Date:   Mon Sep 21 17:47:29 2026 +0530
+
+    Adding the remaining files
+
+[33mcommit a600301ad7428e140b9ef354202f223c25082a96[m
+Author: chouhandarsh <darshc534@gmail.com>
+Date:   Thu Sep 3 19:13:48 2026 +0530
+
+    adding lSTM
+
+[33mcommit 0acfebd1e07cebe519c649c3a475aca09ee2d845[m
+Author: chouhandarsh <darshc534@gmail.com>
+Date:   Thu Sep 3 16:33:04 2026 +0530
+
+    Adding problems
+
+[33mcommit 5e2c3dd106107723670144c2053634a40b8591de[m
+Author: chouhandarsh <darshc534@gmail.com>
+Date:   Thu Sep 3 15:21:54 2026 +0530
+
+    Adding back propagation
+
+[33mcommit 5f12a23e05cf7bb4f4b2e6176141c465fa8a8212[m
+Author: chouhandarsh <darshc534@gmail.com>
+Date:   Wed Sep 2 17:56:03 2026 +0530
+
+    adding RNN
+
+[33mcommit e6d323d8bbc7d1c8a76ff6f7cbd6a739491a0aef[m
+Author: chouhandarsh <darshc534@gmail.com>
+Date:   Wed Sep 2 17:30:11 2026 +0530
+
+    Adding RNN
+
+[33mcommit 3568e6fb1b12399aeac647fb121391a3662d99ee[m
+Author: chouhandarsh <darshc534@gmail.com>
+Date:   Mon Aug 31 20:52:18 2026 +0530
+
+    adding transfoer learning
+
+[33mcommit c705d16e43b5c39f1152636dc448281e5677ce6a[m
+Author: chouhandarsh <darshc534@gmail.com>
+Date:   Mon Aug 31 19:22:28 2026 +0530
+
+    Adding Infrence Learning
+
+[33mcommit 52e50bd123b33d95015d9332165152f42faa33e2[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: chouhandarsh <darshc534@gmail.com>
+Date:   Wed Aug 26 17:53:57 2026 +0530
+
+    Adding remainng boosting
+
+[33mcommit 84f27dd62bfa14612bc24a98fd68338e4f2d2db2[m
+Author: chouhandarsh <darshc534@gmail.com>
+Date:   Wed Aug 26 15:32:36 2026 +0530
+
+    adding optimization files
+
+[33mcommit 24642f016927d04d18327430fab0dca67e65aab1[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: chouhandarsh <darshc534@gmail.com>
+Date:   Mon Aug 24 18:57:34 2026 +0530
+
+    Remove large files and sensitive files
+
+[33mcommit 7bd27f373e7ff1ad87c5c66008d3c8f6495fb95f[m
+Author: chouhandarsh <darshc534@gmail.com>
+Date:   Mon Aug 24 18:49:25 2026 +0530
+
+    Adding gitignore
+
+[33mcommit 4b833888149de4f4d2db6969d9af80999c6bd6b1[m
+Author: chouhandarsh <darshc534@gmail.com>
+Date:   Mon Aug 24 17:14:35 2026 +0530
+
+    Adding env
+
+[33mcommit df51de64b97d748b633a0d86b97c8f5593a29d9b[m
+Author: chouhandarsh <darshc534@gmail.com>
+Date:   Mon Aug 24 16:32:29 2026 +0530
+
+    Adding files
+
+[33mcommit 85766833dd4eaf23a9f04ff84c30991920ff331b[m
+Author: chouhandarsh <darshc534@gmail.com>
+Date:   Mon Aug 24 16:22:36 2026 +0530
+
+    first commit
