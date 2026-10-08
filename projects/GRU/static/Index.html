@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Plagiarism Detector</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>Plagiarism Detector</h1>
+            <p>Compare two pieces of text using a Siamese LSTM model</p>
+        </div>
+
+        <div class="card">
+
+            <!-- Text A -->
+            <div class="input-section">
+                <label for="textA">Document / Student A</label>
+
+                <textarea
+                    id="textA"
+                    placeholder="Enter the first student's text here..."></textarea>
+            </div>
+
+
+            <!-- Text B -->
+            <div class="input-section">
+                <label for="textB">Document / Student B</label>
+
+                <textarea
+                    id="textB"
+                    placeholder="Enter the second student's text here..."></textarea>
+            </div>
+
+
+            <!-- Button -->
+            <button id="checkButton" onclick="checkPlagiarism()">
+                Check Similarity
+            </button>
+
+
+            <!-- Result -->
+            <div id="result">
+
+                <h2>Result</h2>
+
+                <div class="score" id="score">
+                    -
+                </div>
+
+                <div class="status" id="status">
+                    -
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script>
+
+        async function checkPlagiarism() {
+
+            const textA = document.getElementById("textA").value.trim();
+            const textB = document.getElementById("textB").value.trim();
+
+            const result = document.getElementById("result");
+            const scoreElement = document.getElementById("score");
+            const statusElement = document.getElementById("status");
+            const button = document.getElementById("checkButton");
+
+
+            // Check empty input
+            if (!textA || !textB) {
+
+                result.style.display = "block";
+
+                scoreElement.innerText = "";
+
+                statusElement.innerText =
+                    "Please enter both texts.";
+
+                return;
+            }
+
+
+            // Loading state
+            button.disabled = true;
+            button.innerText = "Checking...";
+
+            result.style.display = "block";
+
+            scoreElement.innerText = "...";
+            statusElement.innerText = "Analyzing the texts";
+
+
+            try {
+
+                const url =
+                    `/predict?text_a=${encodeURIComponent(textA)}&text_b=${encodeURIComponent(textB)}`;
+
+
+                const response = await fetch(url, {
+                    method: "POST"
+                });
+
+
+                if (!response.ok) {
+                    throw new Error("Server returned an error");
+                }
+
+
+                const data = await response.json();
+
+
+                const score = data.score;
+
+
+                // Convert model output to percentage
+                const percentage = score * 100;
+
+
+                scoreElement.innerText =
+                    percentage.toFixed(2) + "%";
+
+
+                if (score >= 0.5) {
+
+                    statusElement.innerText =
+                        "High similarity / Possible Plagiarism";
+
+                } else {
+
+                    statusElement.innerText =
+                        "Low similarity";
+
+                }
+
+            }
+
+            catch (error) {
+
+                console.error(error);
+
+                scoreElement.innerText = "";
+
+                statusElement.innerText =
+                    "Error connecting to the server.";
+
+            }
+
+
+            finally {
+
+                button.disabled = false;
+                button.innerText = "Check Similarity";
+
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>

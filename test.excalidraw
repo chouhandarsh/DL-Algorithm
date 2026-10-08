@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "5YI1EcdLbpcAzLOG1q6aD",
+      "type": "text",
+      "x": 340.20001220703125,
+      "y": 189.40000915527344,
+      "width": 204.4598846435547,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a1",
+      "roundness": null,
+      "seed": 101466556,
+      "version": 133,
+      "versionNonce": 959909180,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1790761462827,
+      "link": null,
+      "locked": false,
+      "text": "5pm to 8 pm contest\nresearch = 5:30 se\nevent 6:30 se\n",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "5pm to 8 pm contest\nresearch = 5:30 se\nevent 6:30 se\n",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
